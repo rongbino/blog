@@ -2,13 +2,13 @@
 layout: default
 ---
 
-##Java技术
+## Java技术
 
-##配置管理
+## 配置管理
 
-##系统配置
+## 系统配置
 
-##Linux相关
+## Linux相关
 
 [Link to another page](another-page).
 
