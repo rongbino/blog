@@ -1,6 +1,30 @@
-title: Tommy's Blog
-description: Tommy Rong
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: :title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://rongbino.github.io/blog
 author: Tommy Rong
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: Tommy Rong's Resume
+name: Tommy Rong
+email: rongbino@163.com
+email_full: mailto:rongbino@163.com
+website: rongbino.github.com/blog
+website_full: https://github.com/rongbino
+site.baidu_maps: http://map.baidu.com/?newmap=1&shareurl=1&l=19&tn=B_NORMAL_MAP&hb=B_SATELLITE_STREET&c=12951445,4838012
+github: rongbino
+address: WUDAOKOU
+city: Beijing
+country: China
+
+# needed for travis-ci build
+exclude: [vendor]
