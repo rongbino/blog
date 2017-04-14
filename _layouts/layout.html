@@ -43,14 +43,17 @@
             <a href="{{ site.baseurl }}">My Blogs</a><br/>
         </p>
     </header>
-    <div class="thirteen columns clearfix">
+    <div class="twelve columns">
 
         {{ content }}
 
-    <footer class="thirteen columns">
+    <footer class="twelve columns">
         <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
             <a href="https://www.github.com/rongbino">Tommy</a> with ♥</p>
     </footer>
+    </div>
+    <div class="three columns clearfix">
+        {% include list.html %}
     </div>
 </div>
 
