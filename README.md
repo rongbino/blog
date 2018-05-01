@@ -3,6 +3,10 @@ sudo gem install bundler
 bundler add jekyll && bundle install   
 jekyll new my-awesome-site  
 cd my-awesome-site   
+// carete a Gemfile
+bundle init  
+bundle add jekyll  
+bundle install   
 bundle exec jekyll serve  
 
 
