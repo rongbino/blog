@@ -1,3 +1,10 @@
+# install Jekyll   
+brew install bundler   
+bundler add jekyll && bundle install   
+jekyll new my-awesome-site  
+cd my-awesome-site   
+bundle exec jekyll serve  
+
 
 # Vitae
 
